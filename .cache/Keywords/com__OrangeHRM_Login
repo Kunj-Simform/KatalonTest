@@ -1,0 +1,48 @@
+{
+  "keywordFileContentHash": "C1BB4E8DB3F4543B5A9D9F96BA80E34E",
+  "keywordClasses": [
+    {
+      "name": "com.OrangeHRM_Login",
+      "keywordMethods": [
+        {
+          "name": "Login",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "Waitforclick",
+          "parameters": [
+            {
+              "name": "object",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "timeout",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Visit resource hub</name>
+   <tag></tag>
+   <elementGuidId>93479918-731b-4e58-ab0e-eb6801c8d8e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedDark.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-disableElevation.MuiButton-root.MuiButton-contained.MuiButton-containedDark.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-disableElevation.css-lsi1wp</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[7]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>43638954-897d-4384-99e1-abda35a9c288</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedDark MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedDark MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation css-lsi1wp</value>
+      <webElementGuid>71680077-95db-4eaf-b096-87da1af59098</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>b3d1a065-4612-45dd-878f-2b3eb92f36ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ab3ab0a1-3d22-4f35-82d4-98db2ecaa8b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Visit resource hub</value>
+      <webElementGuid>de4122a4-fe10-40ac-9ca7-a78f7377bf7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;MuiBox-root css-1w7rbvs&quot;]/div[@class=&quot;MuiContainer-root MuiContainer-maxWidthLg css-mani9f&quot;]/div[@class=&quot;css-dxe609&quot;]/div[@class=&quot;css-19jlfq&quot;]/div[@class=&quot;css-1d8k8ed&quot;]/div[@class=&quot;css-1d8k8ed&quot;]/div[@class=&quot;MuiBox-root css-0&quot;]/div[@class=&quot;css-15cnujc&quot;]/div[@class=&quot;css-11nhchy&quot;]/a[1]/button[@class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedDark MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedDark MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation css-lsi1wp&quot;]</value>
+      <webElementGuid>36e8ae06-6dda-4da1-9bb7-af8fd0fd75d4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[7]</value>
+      <webElementGuid>ada32ebd-026e-4f0f-a481-cf5529d49275</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[2]/div/div[2]/div/div/div/div[4]/div/div/a/button</value>
+      <webElementGuid>6dd1011b-1e99-43d9-8507-b32f4c86de86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thank you for your request.'])[1]/following::button[1]</value>
+      <webElementGuid>0f1cdaa2-e523-4519-ad02-a193bb5d79ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='THANK YOU'])[1]/following::button[1]</value>
+      <webElementGuid>7a5450f0-d552-4b90-983e-0658b4d63971</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Latest resources'])[1]/preceding::button[1]</value>
+      <webElementGuid>a250f592-1ec0-46f8-a4a4-648c0aff2352</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More resources'])[1]/preceding::button[1]</value>
+      <webElementGuid>e70a2f13-897b-409c-a2ae-2eef7437a637</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Visit resource hub']/parent::*</value>
+      <webElementGuid>a00df8bc-8516-4ab4-b192-5f8b2b762ba9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/a/button</value>
+      <webElementGuid>7f5f3577-7e3e-43f0-8053-606948d5861b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Visit resource hub' or . = 'Visit resource hub')]</value>
+      <webElementGuid>e73e5389-e17a-46a6-a0a7-2e25183ce571</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

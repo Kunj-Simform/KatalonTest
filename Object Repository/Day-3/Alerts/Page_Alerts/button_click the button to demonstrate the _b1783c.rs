@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_click the button to demonstrate the _b1783c</name>
+   <tag></tag>
+   <elementGuidId>60bcccd3-b03d-4155-905d-b00bf03c2901</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@onclick='promptbox()']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-info</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>568fe61f-efc1-4915-bbde-55ff92926554</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-info</value>
+      <webElementGuid>20f26931-3be5-4db3-83d4-b09a3816a25d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>promptbox()</value>
+      <webElementGuid>5d63a4d4-8dd8-4d2e-b5e2-60054a86b36c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>click the button to demonstrate the prompt box </value>
+      <webElementGuid>d967818e-49d9-46c4-8b5e-63f66db435c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Textbox&quot;)/button[@class=&quot;btn btn-info&quot;]</value>
+      <webElementGuid>22ef1cc4-bb20-4f76-932f-f37081e65813</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@onclick='promptbox()']</value>
+      <webElementGuid>5fc8e4b1-a4b0-4082-a798-56336ee935af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Textbox']/button</value>
+      <webElementGuid>0bf4708b-88ac-49e8-a491-206c9717f1ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='click the button to display a confirm box'])[1]/following::button[1]</value>
+      <webElementGuid>6013e490-b5d4-4bb4-82b3-5d9d6916c0aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'Textbox', '&quot;', ')/button[@class=', '&quot;', 'btn btn-info', '&quot;', ']')])[1]/preceding::button[1]</value>
+      <webElementGuid>c35da6d1-4a43-4291-b3ee-2bf1ed7ecad9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='click the button to demonstrate the prompt box']/parent::*</value>
+      <webElementGuid>d579798d-05ed-4ad3-af42-160fd3ef89e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>f71b2b60-7a07-44d6-9784-a0e4fba3a18c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'click the button to demonstrate the prompt box ' or . = 'click the button to demonstrate the prompt box ')]</value>
+      <webElementGuid>8baa8a94-0f4f-4dc6-ba85-980fdc729cd3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

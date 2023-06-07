@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Saucedemo_Addtocart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>16f05057-2473-4870-b655-18789da98ba3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a37a74b8-c9a2-42ac-89ff-cd674a3b7af3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ed68aaae-ea5c-4b62-af78-75303495f3c7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>24fc1363-7678-42d2-8c2d-45c5089cabed</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Kunj'</defaultValue>
+      <description></description>
+      <id>a37a74b8-c9a2-42ac-89ff-cd674a3b7af3</id>
+      <masked>false</masked>
+      <name>Firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Patel'</defaultValue>
+      <description></description>
+      <id>ed68aaae-ea5c-4b62-af78-75303495f3c7</id>
+      <masked>false</masked>
+      <name>Lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>'360004'</defaultValue>
+      <description></description>
+      <id>24fc1363-7678-42d2-8c2d-45c5089cabed</id>
+      <masked>false</masked>
+      <name>Pincode</name>
+   </variable>
+</TestCaseEntity>
