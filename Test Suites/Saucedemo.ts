@@ -12,34 +12,9 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>700c8666-5216-4f71-b969-c28446fa3df6</testSuiteGuid>
    <testCaseLink>
-      <guid>18c908fa-5148-4468-9895-cabae4962a90</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Day-2/Saucedemo/Saucedemo_Addtocart</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>765664cf-7f02-4b99-a4ca-2e85fcbe7ec1</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ee7f7eab-7f4d-4ed1-a5d6-8b7869cb544f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2fe2f389-aef8-4f7b-96fb-adeb25b3c2bd</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>5d91aeb0-ab1a-4289-ac83-3e29feac4bb0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Day-2/Saucedemo/Saucedemo_Request_Demosite</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -71,6 +46,31 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>3bac262d-391f-4bac-81e5-bb21ea69b615</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>628fb68e-bb1a-4535-9ef0-5d8301c67fee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Day-2/Saucedemo/Saucedemo_Addtocart</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>765664cf-7f02-4b99-a4ca-2e85fcbe7ec1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ee7f7eab-7f4d-4ed1-a5d6-8b7869cb544f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2fe2f389-aef8-4f7b-96fb-adeb25b3c2bd</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

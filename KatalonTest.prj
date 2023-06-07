@@ -6,6 +6,7 @@
    <UUID>69eee14e-f32a-4a0f-a5b7-4c8db0c0e659</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/home/kunj/git/KatalonTest/KatalonTest.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

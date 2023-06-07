@@ -26,7 +26,7 @@ CustomKeywords.'com.Saucedemo_Login.Login'()
 WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/button_Add to cart'))
 
 WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/button_Add to cart_1'))
-
+goergoijpigjwngipjiweaw4
 WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/a_2'))
 
 WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/button_Remove'))
