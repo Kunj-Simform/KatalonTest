@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>5d91aeb0-ab1a-4289-ac83-3e29feac4bb0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Day-2/Saucedemo/Saucedemo_Request_Demosite</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
