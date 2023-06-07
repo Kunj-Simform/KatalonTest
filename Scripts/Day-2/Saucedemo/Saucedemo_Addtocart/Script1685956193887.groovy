@@ -34,13 +34,13 @@ WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/but
 WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/button_Checkout'))
 
 WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Checkout Your Information_firstName'), 
-    ,Firstname)
+    Firstname)
 
 WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Checkout Your Information_lastName'), 
-    ,Lastname)
+    Lastname)
 
 WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Checkout Your Information_postalCode'), 
-    ,Pincode)
+    Pincode)
 
 WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Cancel_continue'))
 

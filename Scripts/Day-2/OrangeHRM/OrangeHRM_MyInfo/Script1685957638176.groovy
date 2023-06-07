@@ -37,7 +37,7 @@ WebUI.setText(findTestObject('Object Repository/Day-2/OrangeHRM/Page_OrangeHRM_M
 WebUI.setText(findTestObject('Object Repository/Day-2/OrangeHRM/Page_OrangeHRM_MyInfo/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus'), 
     EmployeeId)
 
-CustomKeywords.'com.OrangeHRM_Login.Waitforclick'('Object Repository/Day-2/OrangeHRM/Page_OrangeHRM_MyInfo/Page_OrangeHRM/p_Successfully Updated',
+CustomKeywords.'com.OrangeHRM_Login.Waitforclick'('Object Repository/Day-2/OrangeHRM/Page_OrangeHRM_MyInfo/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus',
 	5)
 
 WebUI.click(findTestObject('Object Repository/Day-2/OrangeHRM/Page_OrangeHRM_MyInfo/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec'))
@@ -46,7 +46,7 @@ WebUI.click(findTestObject('Object Repository/Day-2/OrangeHRM/Page_OrangeHRM_MyI
 
 WebUI.click(findTestObject('Object Repository/Day-2/OrangeHRM/Page_OrangeHRM_MyInfo/Page_OrangeHRM/button_Save'))
 
-CustomKeywords.'com.OrangeHRM_Login.Waitforclick'('Object Repository/Day-2/OrangeHRM/Page_OrangeHRM_MyInfo/Page_OrangeHRM/p_Successfully Updated', 
+CustomKeywords.'com.OrangeHRM_Login.Waitforclick'('Object Repository/Day-2/OrangeHRM/Page_OrangeHRM_MyInfo/Page_OrangeHRM/button_Save', 
     5)
 
 WebUI.click(findTestObject('Object Repository/Day-2/OrangeHRM/Page_OrangeHRM_MyInfo/Page_OrangeHRM/button_Save'))

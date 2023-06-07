@@ -29,18 +29,18 @@ WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/a_A
 
 WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Sauce Labs Cross Browser Testing, Sele_e8ee84/button_Request a demo'))
 
-WebUI.setText(findTestObject('Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__FirstName'), 'kunj')
+WebUI.setText(findTestObject('Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__FirstName'), Firstname)
 
-WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__LastName'), 'patel')
+WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__LastName'), Lastname)
 
-WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__Email'), 'kunjpt2002@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__Email'), Email1)
 
-WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__Company'), 'simform')
+WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__Company'), Company)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/select_Select.AfghanistanAlbaniaAlgeriaAndo_2e5989'), 
     'India', true)
 
-WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__Phone'), '1234567890')
+WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__Phone'), Phonenumber)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/select_Select.Sauce Cross-BrowserSauce Mobi_6b7086'), 
     'Cross-Browser Testing', true)
@@ -54,7 +54,7 @@ WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sau
 
 WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/span_Company details'))
 
-WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__Email'), 'kunj.k@simformsolutions.com')
+WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__Email'), Email2)
 
 WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/button_Submit'))
 
