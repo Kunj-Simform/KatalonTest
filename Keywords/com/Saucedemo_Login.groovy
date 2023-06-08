@@ -22,14 +22,12 @@ import internal.GlobalVariable
 
 public class Saucedemo_Login {
 	@Keyword
-	public Login() {
+	public Login(object_Username, username, object_Password, password, object_Loginbtn) {
 
-		WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'),
-				GlobalVariable.Username2)
-
-		WebUI.setEncryptedText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Swag Labs_password'),
-				'qcu24s4901FyWDTwXGr6XA==')
-
-		WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button'))
+		WebUI.setText(findTestObject(object_Username),
+				, username)
+		WebUI.setText(findTestObject(object_Password),
+				, password)
+		WebUI.click(findTestObject(object_Loginbtn))
 	}
 }

@@ -22,17 +22,13 @@ import internal.GlobalVariable
 
 public class OrangeHRM_Login {
 	@Keyword
-	public Login() {
+	public Login(object1, username, object2, password, object3) {
 
-		WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-
-		WebUI.setText(findTestObject('Object Repository/Day-2/OrangeHRM/Page_OrangeHRM_MyInfo/Page_OrangeHRM/input_Username_username'),
-				,GlobalVariable.Username1)
-
-		WebUI.setEncryptedText(findTestObject('Object Repository/Day-2/OrangeHRM/Page_OrangeHRM_MyInfo/Page_OrangeHRM/input_Password_password'),
-				'hUKwJTbofgPU9eVlw/CnDQ==')
-
-		WebUI.click(findTestObject('Object Repository/Day-2/OrangeHRM/Page_OrangeHRM_MyInfo/Page_OrangeHRM/button_Login'))
+		WebUI.setText(findTestObject(object1),
+				, username)
+		WebUI.setText(findTestObject(object2),
+				, password)
+		WebUI.click(findTestObject(object3))
 	}
 	@Keyword
 	public Waitforclick(object, timeout) {

@@ -41,6 +41,18 @@
       <value></value>
       <variableId>c69c4d16-4c45-42c3-a19f-f1c0f0a9a69e</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f7283adb-05aa-4f91-af2a-8a496a80bdf2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f88e3a11-2ecd-471d-92fd-82f1a6f5ad1a</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Kunj'</defaultValue>
       <description></description>
@@ -82,5 +94,19 @@
       <id>c69c4d16-4c45-42c3-a19f-f1c0f0a9a69e</id>
       <masked>false</masked>
       <name>Phonenumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>f7283adb-05aa-4f91-af2a-8a496a80bdf2</id>
+      <masked>false</masked>
+      <name>EndUser</name>
+   </variable>
+   <variable>
+      <defaultValue>'secret_sauce'</defaultValue>
+      <description></description>
+      <id>f88e3a11-2ecd-471d-92fd-82f1a6f5ad1a</id>
+      <masked>false</masked>
+      <name>Password</name>
    </variable>
 </TestCaseEntity>

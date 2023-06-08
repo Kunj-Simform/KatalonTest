@@ -29,6 +29,18 @@
       <value></value>
       <variableId>1cc26f02-ad09-402d-b9cc-f22f33ed5537</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5f1bb719-5f00-46df-95e9-96579fe20a6d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>584df581-8ac5-4b96-8765-fb22e8750ab0</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Kunj'</defaultValue>
       <description></description>
@@ -56,5 +68,19 @@
       <id>1cc26f02-ad09-402d-b9cc-f22f33ed5537</id>
       <masked>false</masked>
       <name>EmployeeId</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin123'</defaultValue>
+      <description></description>
+      <id>5f1bb719-5f00-46df-95e9-96579fe20a6d</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>584df581-8ac5-4b96-8765-fb22e8750ab0</id>
+      <masked>false</masked>
+      <name>AdminUser</name>
    </variable>
 </TestCaseEntity>

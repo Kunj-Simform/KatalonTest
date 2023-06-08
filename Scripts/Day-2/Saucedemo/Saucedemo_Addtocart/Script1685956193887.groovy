@@ -21,7 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Saucedemo)
 
-CustomKeywords.'com.Saucedemo_Login.Login'()
+CustomKeywords.'com.Saucedemo_Login.Login'('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name', 
+    EndUser, 'Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Swag Labs_password', Password, 'Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button')
 
 WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/button_Add to cart'))
 
@@ -33,20 +34,39 @@ WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/but
 
 WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/button_Checkout'))
 
+WebUI.verifyTextPresent('Checkout: Your Information', false)
+
 WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Checkout Your Information_firstName'), 
     Firstname)
+
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Checkout Your Information_firstName'), 
+    'value', Firstname, 1)
 
 WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Checkout Your Information_lastName'), 
     Lastname)
 
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Checkout Your Information_lastName'), 
+    'value', Lastname, 1)
+
 WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Checkout Your Information_postalCode'), 
     Pincode)
 
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Checkout Your Information_postalCode'), 
+    'value', Pincode, 1)
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Cancel_continue'))
+
+WebUI.verifyTextPresent('Payment Information', false)
 
 WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/button_Finish'))
 
+WebUI.verifyTextPresent('Thank you for your order!', false)
+
 WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/button_Back Home'))
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

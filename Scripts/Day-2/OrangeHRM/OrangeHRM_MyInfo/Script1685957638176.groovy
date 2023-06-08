@@ -21,7 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.OrangeHRM)
 
-CustomKeywords.'com.OrangeHRM_Login.Login'()
+CustomKeywords.'com.OrangeHRM_Login.Login'('Object Repository/Day-2/OrangeHRM/Page_OrangeHRM_MyInfo/Page_OrangeHRM/input_Username_username', AdminUser,
+										   'Object Repository/Day-2/OrangeHRM/Page_OrangeHRM_MyInfo/Page_OrangeHRM/input_Password_password', Password,
+										   'Object Repository/Day-2/OrangeHRM/Page_OrangeHRM_MyInfo/Page_OrangeHRM/button_Login')
 
 WebUI.click(findTestObject('Object Repository/Day-2/OrangeHRM/Page_OrangeHRM_MyInfo/Page_OrangeHRM/a_My Info'))
 

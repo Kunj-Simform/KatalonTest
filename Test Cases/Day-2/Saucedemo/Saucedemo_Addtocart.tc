@@ -23,6 +23,18 @@
       <value></value>
       <variableId>2fe2f389-aef8-4f7b-96fb-adeb25b3c2bd</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>18a0c30a-1e66-4cad-bf41-6ab32e8b7731</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>08e74b20-a292-441b-9756-722d73b4f03e</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Kunj'</defaultValue>
       <description></description>
@@ -43,5 +55,19 @@
       <id>2fe2f389-aef8-4f7b-96fb-adeb25b3c2bd</id>
       <masked>false</masked>
       <name>Pincode</name>
+   </variable>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>18a0c30a-1e66-4cad-bf41-6ab32e8b7731</id>
+      <masked>false</masked>
+      <name>EndUser</name>
+   </variable>
+   <variable>
+      <defaultValue>'secret_sauce'</defaultValue>
+      <description></description>
+      <id>08e74b20-a292-441b-9756-722d73b4f03e</id>
+      <masked>false</masked>
+      <name>Password</name>
    </variable>
 </TestCaseEntity>
