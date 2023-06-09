@@ -19,59 +19,66 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl(GlobalVariable.Saucedemo)
 
-CustomKeywords.'com.Saucedemo_Login.Login'('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name', 
-    EndUser, 'Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Swag Labs_password', Password, 'Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button')
+CustomKeywords.'com.Saucedemo_Login.Login'('Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name', 
+    EndUser, 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_password', Password, 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button')
 
 WebUI.delay(3)
 
 WebUI.getUrl().equals('https://www.saucedemo.com/inventory.html')
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button'), 
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button'), 
     1)
 
-WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/button_Open Menu'))
+WebUI.click(findTestObject('Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Open Menu'))
 
-WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/a_About'))
+WebUI.click(findTestObject('Object Repository/Assignment/SauceDemo/Page_Swag Labs/a_About'))
 
-WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Sauce Labs Cross Browser Testing, Sele_e8ee84/button_Request a demo'))
+WebUI.click(findTestObject('Object Repository/Assignment/SauceDemo/Page_Sauce Labs Cross Browser Testing, Sele_e8ee84/button_Request a demo'))
 
 String str = 'FirstName'
 
-TestObject Firstname = findTestObject('Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__FirstName', [('Empid') : str])
+TestObject Firstname = findTestObject('Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__FirstName', [('Empid') : str])
 
 WebUI.setText(Firstname, 'Kunj')
 
-WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__LastName'), Lastname)
+WebUI.setText(findTestObject('Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__LastName'), Lastname)
 
-WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__Email'), Email1)
+WebUI.setText(findTestObject('Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Email'), Email1)
 
-WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__Company'), Company)
+WebUI.setText(findTestObject('Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Company'), Company)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/select_Select.AfghanistanAlbaniaAlgeriaAndo_2e5989'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/select_Select.AfghanistanAlbaniaAlgeriaAndo_2e5989'), 
     'India', true)
 
-WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__Phone'), Phonenumber)
+WebUI.setText(findTestObject('Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Phone'), Phonenumber)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/select_Select.Sauce Cross-BrowserSauce Mobi_6b7086'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/select_Select.Sauce Cross-BrowserSauce Mobi_6b7086'), 
     'Cross-Browser Testing', true)
 
-WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/textarea__Sales_Contact_Comments__c'), 
+WebUI.setText(findTestObject('Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/textarea__Sales_Contact_Comments__c'), 
     'none')
 
-WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/label_Please check this box if youd like to_15e628'))
+WebUI.click(findTestObject('Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/label_Please check this box if youd like to_15e628'))
 
-WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/button_Submit'))
+WebUI.click(findTestObject('Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/button_Submit'))
 
-WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/span_Company details'))
+WebUI.verifyTextPresent('Enter valid business email address', false)
 
-WebUI.setText(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__Email'), Email2)
+WebUI.click(findTestObject('Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/span_Company details'))
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/input__Email'), 
+//WebUI.scrollToElement(findTestObject('Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Email'), 
+//    Email1)
+
+WebUI.setText(findTestObject('Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Email'), Email2)
+
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Email'), 
     'value', Email2, 0)
 
-WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Request a Sauce Labs Demo/button_Submit'))
+WebUI.click(findTestObject('Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/button_Submit'))
 
 WebUI.delay(5)
 

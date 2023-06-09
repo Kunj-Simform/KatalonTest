@@ -19,21 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl(GlobalVariable.Alert)
 
-WebUI.click(findTestObject('Object Repository/Day-2/Alerts/Page_Alerts/a_Alert with OK'))
+WebUI.click(findTestObject('Object Repository/Assignment/Alerts/Page_Alerts/a_Alert with OK'))
 
-WebUI.click(findTestObject('Object Repository/Day-2/Alerts/Page_Alerts/button_click the button to display an  alert box'))
-
-WebUI.waitForAlert(5)
-
-WebUI.delay(2)
-
-WebUI.acceptAlert()
-
-WebUI.click(findTestObject('Object Repository/Day-2/Alerts/Page_Alerts/a_Alert with OK  Cancel'))
-
-WebUI.click(findTestObject('Object Repository/Day-2/Alerts/Page_Alerts/button_click the button to display a confirm box'))
+WebUI.click(findTestObject('Object Repository/Assignment/Alerts/Page_Alerts/button_click the button to display an  alert box'))
 
 WebUI.waitForAlert(5)
 
@@ -41,9 +33,19 @@ WebUI.delay(2)
 
 WebUI.acceptAlert()
 
-WebUI.click(findTestObject('Object Repository/Day-2/Alerts/Page_Alerts/a_Alert with OK  Cancel'))
+WebUI.click(findTestObject('Object Repository/Assignment/Alerts/Page_Alerts/a_Alert with OK  Cancel'))
 
-WebUI.click(findTestObject('Object Repository/Day-2/Alerts/Page_Alerts/button_click the button to display a confirm box'))
+WebUI.click(findTestObject('Object Repository/Assignment/Alerts/Page_Alerts/button_click the button to display a confirm box'))
+
+WebUI.waitForAlert(5)
+
+WebUI.delay(2)
+
+WebUI.acceptAlert()
+
+WebUI.click(findTestObject('Object Repository/Assignment/Alerts/Page_Alerts/a_Alert with OK  Cancel'))
+
+WebUI.click(findTestObject('Object Repository/Assignment/Alerts/Page_Alerts/button_click the button to display a confirm box'))
 
 WebUI.waitForAlert(5)
 
@@ -51,9 +53,9 @@ WebUI.delay(2)
 
 WebUI.dismissAlert()
 
-WebUI.click(findTestObject('Object Repository/Day-2/Alerts/Page_Alerts/a_Alert with Textbox'))
+WebUI.click(findTestObject('Object Repository/Assignment/Alerts/Page_Alerts/a_Alert with Textbox'))
 
-WebUI.click(findTestObject('Object Repository/Day-2/Alerts/Page_Alerts/button_click the button to demonstrate the _b1783c'))
+WebUI.click(findTestObject('Object Repository/Assignment/Alerts/Page_Alerts/button_click the button to demonstrate the _b1783c'))
 
 WebUI.waitForAlert(5)
 

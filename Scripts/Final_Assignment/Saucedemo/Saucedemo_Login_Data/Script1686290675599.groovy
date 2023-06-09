@@ -20,19 +20,19 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.openBrowser('')
 //
 //WebUI.navigateToUrl(GlobalVariable.Saucedemo)
-WebUI.click(findTestObject('Object Repository/Day-2/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/input_Swag Labs_user-name'))
+WebUI.click(findTestObject('Object Repository/Assignment/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/input_Swag Labs_user-name'))
 
-WebUI.click(findTestObject('Object Repository/Day-2/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/div_Accepted usernames arestandard_userlock_0ab16f'))
+WebUI.click(findTestObject('Object Repository/Assignment/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/div_Accepted usernames arestandard_userlock_0ab16f'))
 
-WebUI.setText(findTestObject('Object Repository/Day-2/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/input_Swag Labs_user-name'), 
+WebUI.setText(findTestObject('Object Repository/Assignment/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/input_Swag Labs_user-name'), 
     Username)
 
-WebUI.click(findTestObject('Object Repository/Day-2/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/div_Password for all userssecret_sauce'))
+WebUI.click(findTestObject('Object Repository/Assignment/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/div_Password for all userssecret_sauce'))
 
-WebUI.setText(findTestObject('Object Repository/Day-2/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/input_Swag Labs_password'), 
+WebUI.setText(findTestObject('Object Repository/Assignment/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/input_Swag Labs_password'), 
     Password)
 
-WebUI.click(findTestObject('Object Repository/Day-2/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/input_Swag Labs_login-button'))
+WebUI.click(findTestObject('Object Repository/Assignment/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/input_Swag Labs_login-button'))
 
 WebUI.delay(3)
 

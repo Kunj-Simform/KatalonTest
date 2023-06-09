@@ -18,7 +18,7 @@
          <value>//input[@id='FirstName']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a00e7407-6bac-405c-8d7b-4b6f98a727bb</webElementGuid>
+      <webElementGuid>e32130d4-d256-46ed-a273-e9f26a609f7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>id</name>
       <type>Main</type>
       <value>${Empid}</value>
-      <webElementGuid>b1d1bfff-87e6-4a5a-a7ba-d62249ec559e</webElementGuid>
+      <webElementGuid>c95b7aa7-a46b-483e-9b09-f868dcb0e6eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>name</name>
       <type>Main</type>
       <value>FirstName</value>
-      <webElementGuid>62ffbdf2-6bb7-4610-9694-d6aa829d49c6</webElementGuid>
+      <webElementGuid>59a2235d-86c6-45fa-8b86-6cafb3e14d24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>1ed69282-1ffd-4882-9c3a-afeb6075f26c</webElementGuid>
+      <webElementGuid>0acefd62-91bc-4d2d-a28a-49ce3bf15be3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>LblFirstName InstructFirstName</value>
-      <webElementGuid>cd7c2208-b816-422d-bd30-95dce400d26c</webElementGuid>
+      <webElementGuid>89af396a-c604-4d4b-aade-a860abf428a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>9af5a770-c1c4-48e3-a701-47c1583d259c</webElementGuid>
+      <webElementGuid>aa869620-83a5-4e97-add1-ab3074f71fdb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mktoField mktoTextField mktoHasWidth mktoRequired mktoInvalid</value>
-      <webElementGuid>b57c0998-679a-4725-870e-470ce01a536a</webElementGuid>
+      <webElementGuid>87c72fe2-44c1-4b4f-b38f-42ea2419d77f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>28b16cc2-fcf0-4ffb-a63c-032ac58c8020</webElementGuid>
+      <webElementGuid>111fe0da-ee81-4abf-87cf-3dab17c3bb87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>c439968c-42e4-4769-89ee-d14c714ffb56</webElementGuid>
+      <webElementGuid>3f2b4545-5f6d-4f72-8dff-94cab2dff377</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;FirstName&quot;)</value>
-      <webElementGuid>cada3428-77f2-4a58-be00-58a9a58d2505</webElementGuid>
+      <webElementGuid>e8542389-1e71-44d4-a205-34e91f8cf70c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='FirstName']</value>
-      <webElementGuid>0313571b-4b13-4b64-b870-0655f1b9c867</webElementGuid>
+      <webElementGuid>2e601de5-5132-41c7-a52b-81725f9ae8fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='mktoForm_3124']/div[2]/div/div[2]/input</value>
-      <webElementGuid>94e2e2af-a594-4926-9399-d988354cd931</webElementGuid>
+      <webElementGuid>32ff0daa-48f8-4aa0-92b9-94370e08a30c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>58f21711-5830-4d5e-8915-bb9ea77d6c88</webElementGuid>
+      <webElementGuid>76f292f3-7fe5-47b5-98e0-d67a2af9d7e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'FirstName' and @name = 'FirstName' and @type = 'text']</value>
-      <webElementGuid>beab697a-ed9a-4188-a838-933a839e721b</webElementGuid>
+      <webElementGuid>2dec1b38-3ce9-4bde-89d4-1c4bae9b81e8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
