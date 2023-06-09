@@ -21,8 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Saucedemo)
 
-CustomKeywords.'com.Saucedemo_Login.Login'('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name', 
-    EndUser, 'Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Swag Labs_password', Password, 'Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button')
+CustomKeywords.'com.Saucedemo_Login.Login'('Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name', EndUser, 
+										   'Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Swag Labs_password', Password, 
+										   'Object Repository/Day-2/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button')
+
+WebUI.delay(3)
+
+WebUI.getUrl().equals('https://www.saucedemo.com/inventory.html')
 
 WebUI.click(findTestObject('Object Repository/Day-2/SauceDemo/Page_Swag Labs/button_Add to cart'))
 
