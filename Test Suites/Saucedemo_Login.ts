@@ -15,7 +15,7 @@
       <guid>e291c481-507d-4c61-a728-6ef43fc79993</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Day-3/Saucedemo/Saucedemo_Login_Data</testCaseId>
+      <testCaseId>Test Cases/Final_Assignment/Saucedemo/Saucedemo_Login_Data</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e1ed49b7-cfe1-4327-b168-eb1bc9f57622</id>

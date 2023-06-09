@@ -15,7 +15,7 @@
       <guid>5d91aeb0-ab1a-4289-ac83-3e29feac4bb0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Day-2/Saucedemo/Saucedemo_Request_Demosite</testCaseId>
+      <testCaseId>Test Cases/Final_Assignment/Saucedemo/Saucedemo_Request_Demosite</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -70,7 +70,7 @@
       <guid>628fb68e-bb1a-4535-9ef0-5d8301c67fee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Day-2/Saucedemo/Saucedemo_Addtocart</testCaseId>
+      <testCaseId>Test Cases/Final_Assignment/Saucedemo/Saucedemo_Addtocart</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -102,5 +102,12 @@
          <value></value>
          <variableId>08e74b20-a292-441b-9756-722d73b4f03e</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e411f55d-5aa2-4354-ae72-34d15a9eb5ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Final_Assignment/Alerts/Alerts</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
