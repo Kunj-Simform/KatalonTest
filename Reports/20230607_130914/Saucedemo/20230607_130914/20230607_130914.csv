@@ -1,9 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Saucedemo,Chrome 110.0.0.0,,,2023-06-07 13:09:17,2023-06-07 13:09:45,28.172s,FAILED
-,,,,,,,
-Test Cases/Day-2/Saucedemo/Saucedemo_Addtocart,Chrome 110.0.0.0,,,2023-06-07 13:09:42,2023-06-07 13:09:45,2.757s,FAILED
-Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-06-07 13:09:42,2023-06-07 13:09:44,1.447s,PASSED
-"openBrowser("""")",Chrome 110.0.0.0,,,2023-06-07 13:09:44,2023-06-07 13:09:44,0.510s,PASSED
-navigateToUrl(Saucedemo),Chrome 110.0.0.0,,,2023-06-07 13:09:44,2023-06-07 13:09:45,0.591s,PASSED
-com.Saucedemo_Login.Login(),Chrome 110.0.0.0,,,2023-06-07 13:09:45,2023-06-07 13:09:45,0.116s,FAILED
-Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-06-07 13:09:45,2023-06-07 13:09:45,0.023s,PASSED
