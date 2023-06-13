@@ -1,0 +1,87 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Saucedemo,Chrome 110.0.0.0,,,2023-06-12 11:01:20,2023-06-12 11:02:38,1m - 18.230s,PASSED
+,,,,,,,
+Test Cases/Final_Assignment/Saucedemo/Saucedemo_Request_Demosite,Chrome 110.0.0.0,,,2023-06-12 11:01:20,2023-06-12 11:02:04,43.866s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-06-12 11:01:21,2023-06-12 11:01:22,1.065s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-06-12 11:01:22,2023-06-12 11:01:22,0.137s,PASSED
+navigateToUrl(Saucedemo),Chrome 110.0.0.0,,,2023-06-12 11:01:22,2023-06-12 11:01:23,0.634s,PASSED
+"com.Saucedemo_Login.Login(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name"", EndUser, ""Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_password"", Password, ""Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button"")",Chrome 110.0.0.0,,,2023-06-12 11:01:23,2023-06-12 11:01:25,2.399s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-06-12 11:01:25,2023-06-12 11:01:28,3.021s,PASSED
+"getUrl().equals(""https://www.saucedemo.com/inventory.html"")",Chrome 110.0.0.0,,,2023-06-12 11:01:28,2023-06-12 11:01:28,0.013s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button""), 1)",Chrome 110.0.0.0,,,2023-06-12 11:01:28,2023-06-12 11:01:29,0.533s,PASSED
+"click(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Open Menu""))",Chrome 110.0.0.0,,,2023-06-12 11:01:29,2023-06-12 11:01:29,0.483s,PASSED
+"click(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/a_About""))",Chrome 110.0.0.0,,,2023-06-12 11:01:29,2023-06-12 11:01:33,3.529s,PASSED
+"click(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Sauce Labs Cross Browser Testing, Sele_e8ee84/button_Request a demo""))",Chrome 110.0.0.0,,,2023-06-12 11:01:33,2023-06-12 11:01:38,5.001s,PASSED
+"str = ""FirstName""",Chrome 110.0.0.0,,,2023-06-12 11:01:38,2023-06-12 11:01:38,0.001s,PASSED
+"Firstname = findTestObject(""Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__FirstName"", [""Empid"":str])",Chrome 110.0.0.0,,,2023-06-12 11:01:38,2023-06-12 11:01:38,0.230s,PASSED
+"setText(Firstname, ""Kunj"")",Chrome 110.0.0.0,,,2023-06-12 11:01:38,2023-06-12 11:01:41,3.578s,PASSED
+"setText(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__LastName""), Lastname)",Chrome 110.0.0.0,,,2023-06-12 11:01:41,2023-06-12 11:01:43,1.260s,PASSED
+"setText(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Email""), Email1)",Chrome 110.0.0.0,,,2023-06-12 11:01:43,2023-06-12 11:01:44,0.999s,PASSED
+"setText(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Company""), Company)",Chrome 110.0.0.0,,,2023-06-12 11:01:44,2023-06-12 11:01:45,0.963s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/select_Select.AfghanistanAlbaniaAlgeriaAndo_2e5989""), ""India"", true)",Chrome 110.0.0.0,,,2023-06-12 11:01:45,2023-06-12 11:01:48,3.646s,PASSED
+"setText(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Phone""), Phonenumber)",Chrome 110.0.0.0,,,2023-06-12 11:01:48,2023-06-12 11:01:49,0.750s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/select_Select.Sauce Cross-BrowserSauce Mobi_6b7086""), ""Cross-Browser Testing"", true)",Chrome 110.0.0.0,,,2023-06-12 11:01:49,2023-06-12 11:01:51,1.701s,PASSED
+"setText(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/textarea__Sales_Contact_Comments__c""), ""none"")",Chrome 110.0.0.0,,,2023-06-12 11:01:51,2023-06-12 11:01:52,1.022s,PASSED
+"click(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/label_Please check this box if youd like to_15e628""))",Chrome 110.0.0.0,,,2023-06-12 11:01:52,2023-06-12 11:01:52,0.580s,PASSED
+"click(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/button_Submit""))",Chrome 110.0.0.0,,,2023-06-12 11:01:52,2023-06-12 11:01:53,0.597s,PASSED
+"verifyTextPresent(""Enter valid business email address"", false)",Chrome 110.0.0.0,,,2023-06-12 11:01:53,2023-06-12 11:01:54,1.047s,PASSED
+"click(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/span_Company details""))",Chrome 110.0.0.0,,,2023-06-12 11:01:54,2023-06-12 11:01:55,0.671s,PASSED
+"setText(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Email""), Email2)",Chrome 110.0.0.0,,,2023-06-12 11:01:55,2023-06-12 11:01:56,1.083s,PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Email""), ""value"", Email2, 0)",Chrome 110.0.0.0,,,2023-06-12 11:01:56,2023-06-12 11:01:56,0.473s,PASSED
+"click(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/button_Submit""))",Chrome 110.0.0.0,,,2023-06-12 11:01:56,2023-06-12 11:01:57,0.490s,PASSED
+delay(5),Chrome 110.0.0.0,,,2023-06-12 11:01:57,2023-06-12 11:02:02,5.001s,PASSED
+"verifyTextPresent(""Thank you for your request."", false)",Chrome 110.0.0.0,,,2023-06-12 11:02:02,2023-06-12 11:02:02,0.411s,PASSED
+delay(2),Chrome 110.0.0.0,,,2023-06-12 11:02:02,2023-06-12 11:02:04,2.003s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-06-12 11:02:04,2023-06-12 11:02:04,0.094s,PASSED
+,,,,,,,
+Test Cases/Final_Assignment/Saucedemo/Saucedemo_Addtocart,Chrome 110.0.0.0,,,2023-06-12 11:02:04,2023-06-12 11:02:28,23.759s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-06-12 11:02:04,2023-06-12 11:02:05,0.449s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-06-12 11:02:05,2023-06-12 11:02:05,0.110s,PASSED
+navigateToUrl(Saucedemo),Chrome 110.0.0.0,,,2023-06-12 11:02:05,2023-06-12 11:02:06,0.511s,PASSED
+"com.Saucedemo_Login.Login(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name"", EndUser, ""Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_password"", Password, ""Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button"")",Chrome 110.0.0.0,,,2023-06-12 11:02:06,2023-06-12 11:02:08,2.332s,PASSED
+delay(3),Chrome 110.0.0.0,,,2023-06-12 11:02:08,2023-06-12 11:02:11,3.003s,PASSED
+"getUrl().equals(""https://www.saucedemo.com/inventory.html"")",Chrome 110.0.0.0,,,2023-06-12 11:02:11,2023-06-12 11:02:11,0.008s,PASSED
+"click(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Add to cart""))",Chrome 110.0.0.0,,,2023-06-12 11:02:11,2023-06-12 11:02:11,0.480s,PASSED
+"click(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Add to cart_1""))",Chrome 110.0.0.0,,,2023-06-12 11:02:11,2023-06-12 11:02:12,0.581s,PASSED
+"click(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/a_2""))",Chrome 110.0.0.0,,,2023-06-12 11:02:12,2023-06-12 11:02:12,0.576s,PASSED
+"click(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Remove""))",Chrome 110.0.0.0,,,2023-06-12 11:02:12,2023-06-12 11:02:13,0.581s,PASSED
+"click(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Checkout""))",Chrome 110.0.0.0,,,2023-06-12 11:02:13,2023-06-12 11:02:14,0.581s,PASSED
+"verifyTextPresent(""Checkout: Your Information"", false)",Chrome 110.0.0.0,,,2023-06-12 11:02:14,2023-06-12 11:02:14,0.553s,PASSED
+"setText(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_firstName""), Firstname)",Chrome 110.0.0.0,,,2023-06-12 11:02:14,2023-06-12 11:02:15,0.817s,PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_firstName""), ""value"", Firstname, 1)",Chrome 110.0.0.0,,,2023-06-12 11:02:15,2023-06-12 11:02:16,0.565s,PASSED
+"setText(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_lastName""), Lastname)",Chrome 110.0.0.0,,,2023-06-12 11:02:16,2023-06-12 11:02:16,0.827s,PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_lastName""), ""value"", Lastname, 1)",Chrome 110.0.0.0,,,2023-06-12 11:02:16,2023-06-12 11:02:17,0.572s,PASSED
+"setText(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_postalCode""), Pincode)",Chrome 110.0.0.0,,,2023-06-12 11:02:17,2023-06-12 11:02:18,0.834s,PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_postalCode""), ""value"", Pincode, 1)",Chrome 110.0.0.0,,,2023-06-12 11:02:18,2023-06-12 11:02:18,0.553s,PASSED
+delay(2),Chrome 110.0.0.0,,,2023-06-12 11:02:18,2023-06-12 11:02:20,2.001s,PASSED
+"click(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Cancel_continue""))",Chrome 110.0.0.0,,,2023-06-12 11:02:20,2023-06-12 11:02:21,0.478s,PASSED
+"verifyTextPresent(""Payment Information"", false)",Chrome 110.0.0.0,,,2023-06-12 11:02:21,2023-06-12 11:02:21,0.545s,PASSED
+"click(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Finish""))",Chrome 110.0.0.0,,,2023-06-12 11:02:21,2023-06-12 11:02:22,0.471s,PASSED
+"verifyTextPresent(""Thank you for your order!"", false)",Chrome 110.0.0.0,,,2023-06-12 11:02:22,2023-06-12 11:02:22,0.534s,PASSED
+"click(findTestObject(""Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Back Home""))",Chrome 110.0.0.0,,,2023-06-12 11:02:22,2023-06-12 11:02:23,0.467s,PASSED
+delay(5),Chrome 110.0.0.0,,,2023-06-12 11:02:23,2023-06-12 11:02:28,5.002s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-06-12 11:02:28,2023-06-12 11:02:28,0.071s,PASSED
+,,,,,,,
+Test Cases/Final_Assignment/Alerts/Alerts,Chrome 110.0.0.0,,,2023-06-12 11:02:28,2023-06-12 11:02:38,10.414s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-06-12 11:02:28,2023-06-12 11:02:28,0.354s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-06-12 11:02:28,2023-06-12 11:02:29,0.117s,PASSED
+navigateToUrl(Alert),Chrome 110.0.0.0,,,2023-06-12 11:02:29,2023-06-12 11:02:29,0.510s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Alerts/Page_Alerts/a_Alert with OK""))",Chrome 110.0.0.0,,,2023-06-12 11:02:29,2023-06-12 11:02:30,0.559s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Alerts/Page_Alerts/button_click the button to display an  alert box""))",Chrome 110.0.0.0,,,2023-06-12 11:02:30,2023-06-12 11:02:30,0.377s,PASSED
+waitForAlert(5),Chrome 110.0.0.0,,,2023-06-12 11:02:30,2023-06-12 11:02:30,0.013s,PASSED
+acceptAlert(),Chrome 110.0.0.0,,,2023-06-12 11:02:30,2023-06-12 11:02:30,0.013s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Alerts/Page_Alerts/a_Alert with OK  Cancel""))",Chrome 110.0.0.0,,,2023-06-12 11:02:30,2023-06-12 11:02:30,0.383s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Alerts/Page_Alerts/button_click the button to display a confirm box""))",Chrome 110.0.0.0,,,2023-06-12 11:02:30,2023-06-12 11:02:31,0.576s,PASSED
+waitForAlert(5),Chrome 110.0.0.0,,,2023-06-12 11:02:31,2023-06-12 11:02:31,0.004s,PASSED
+acceptAlert(),Chrome 110.0.0.0,,,2023-06-12 11:02:31,2023-06-12 11:02:31,0.012s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Alerts/Page_Alerts/a_Alert with OK  Cancel""))",Chrome 110.0.0.0,,,2023-06-12 11:02:31,2023-06-12 11:02:32,0.575s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Alerts/Page_Alerts/button_click the button to display a confirm box""))",Chrome 110.0.0.0,,,2023-06-12 11:02:32,2023-06-12 11:02:32,0.463s,PASSED
+waitForAlert(5),Chrome 110.0.0.0,,,2023-06-12 11:02:32,2023-06-12 11:02:32,0.006s,PASSED
+dismissAlert(),Chrome 110.0.0.0,,,2023-06-12 11:02:32,2023-06-12 11:02:32,0.025s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Alerts/Page_Alerts/a_Alert with Textbox""))",Chrome 110.0.0.0,,,2023-06-12 11:02:32,2023-06-12 11:02:33,0.590s,PASSED
+"click(findTestObject(""Object Repository/Assignment/Alerts/Page_Alerts/button_click the button to demonstrate the _b1783c""))",Chrome 110.0.0.0,,,2023-06-12 11:02:33,2023-06-12 11:02:33,0.578s,PASSED
+waitForAlert(5),Chrome 110.0.0.0,,,2023-06-12 11:02:33,2023-06-12 11:02:33,0.006s,PASSED
+"setAlertText(""Kunj"")",Chrome 110.0.0.0,,,2023-06-12 11:02:33,2023-06-12 11:02:33,0.017s,PASSED
+acceptAlert(),Chrome 110.0.0.0,,,2023-06-12 11:02:33,2023-06-12 11:02:33,0.012s,PASSED
+delay(5),Chrome 110.0.0.0,,,2023-06-12 11:02:33,2023-06-12 11:02:38,5.002s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-06-12 11:02:38,2023-06-12 11:02:38,0.070s,PASSED

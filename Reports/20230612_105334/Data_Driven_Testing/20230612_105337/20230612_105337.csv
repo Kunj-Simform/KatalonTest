@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data_Driven_Testing,,,,2023-06-12 10:55:35,2023-06-12 10:55:38,2.202s,FAILED
+,,,,,,,
+Test Cases/Final_Assignment/Saucedemo/DataDriven_Login,,,,2023-06-12 10:55:37,2023-06-12 10:55:37,0.106s,FAILED
+"click(findTestObject(""Object Repository/Assignment/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/input_Swag Labs_user-name""))",,,,2023-06-12 10:55:37,2023-06-12 10:55:37,0.090s,FAILED
+,,,,,,,
+Test Cases/Final_Assignment/Saucedemo/DataDriven_Login,,,,2023-06-12 10:55:37,2023-06-12 10:55:37,0.065s,FAILED
+"click(findTestObject(""Object Repository/Assignment/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/input_Swag Labs_user-name""))",,,,2023-06-12 10:55:37,2023-06-12 10:55:37,0.053s,FAILED
+,,,,,,,
+Test Cases/Final_Assignment/Saucedemo/DataDriven_Login,,,,2023-06-12 10:55:37,2023-06-12 10:55:37,0.077s,FAILED
+"click(findTestObject(""Object Repository/Assignment/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/input_Swag Labs_user-name""))",,,,2023-06-12 10:55:37,2023-06-12 10:55:37,0.064s,FAILED
+,,,,,,,
+Test Cases/Final_Assignment/Saucedemo/DataDriven_Login,,,,2023-06-12 10:55:38,2023-06-12 10:55:38,0.082s,FAILED
+"click(findTestObject(""Object Repository/Assignment/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/input_Swag Labs_user-name""))",,,,2023-06-12 10:55:38,2023-06-12 10:55:38,0.070s,FAILED

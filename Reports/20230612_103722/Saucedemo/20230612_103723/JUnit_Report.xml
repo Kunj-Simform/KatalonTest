@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Saucedemo" time="90.626" tests="3" failures="1" errors="0">
+   <testsuite name="Saucedemo" tests="3" failures="1" errors="0" time="90.626" skipped="0" timestamp="2023-06-12 10:37:38" hostname="kunj - SF-CPU-579" id="Test Suites/Saucedemo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/kunj/git/KatalonTest/Reports/20230612_103722/Saucedemo/20230612_103723"/>
+         <property name="logFiles" value="/home/kunj/git/KatalonTest/Reports/20230612_103722/Saucedemo/20230612_103723/execution0.log"/>
+         <property name="attachments" value="/home/kunj/git/KatalonTest/Reports/20230612_103722/Saucedemo/20230612_103723/1686546535597.png, /home/kunj/git/KatalonTest/Reports/20230612_103722/Saucedemo/20230612_103723/1686546535740.png, /home/kunj/git/KatalonTest/Reports/20230612_103722/Saucedemo/20230612_103723/1686546539861.png, /home/kunj/git/KatalonTest/Reports/20230612_103722/Saucedemo/20230612_103723/1686546539996.png, /home/kunj/git/KatalonTest/Reports/20230612_103722/Saucedemo/20230612_103723/1686546544074.png, /home/kunj/git/KatalonTest/Reports/20230612_103722/Saucedemo/20230612_103723/1686546544189.png, /home/kunj/git/KatalonTest/Reports/20230612_103722/Saucedemo/20230612_103723/1686546548379.png, /home/kunj/git/KatalonTest/Reports/20230612_103722/Saucedemo/20230612_103723/1686546548503.png"/>
+         <property name="hostName" value="kunj - SF-CPU-579"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="2536f69dd63f9a80ebf096323f2ddce5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Final_Assignment/Saucedemo/Saucedemo_Request_Demosite" time="50.23" classname="Test Cases/Final_Assignment/Saucedemo/Saucedemo_Request_Demosite" status="PASSED">
+         <system-out><![CDATA[2023-06-12 10:37:38 - [TEST_CASE][PASSED] - Test Cases/Final_Assignment/Saucedemo/Saucedemo_Request_Demosite: Test Cases/Final_Assignment/Saucedemo/Saucedemo_Request_Demosite
+
+2023-06-12 10:37:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-12 10:37:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-12 10:37:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-12 10:37:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-12 10:37:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-12 10:37:39 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-12 10:37:39 - [TEST_STEP][PASSED] - navigateToUrl(Saucedemo): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-06-12 10:37:40 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-06-12 10:37:40 - [TEST_STEP][PASSED] - com.Saucedemo_Login.Login("Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name", EndUser, "Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_password", Password, "Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button"): com.Saucedemo_Login.Login is PASSED
+
+2023-06-12 10:37:41 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-06-12 10:37:42 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_password'
+
+2023-06-12 10:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-06-12 10:37:42 - [MESSAGE][PASSED] - com.Saucedemo_Login.Login is PASSED
+
+2023-06-12 10:37:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-12 10:37:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-12 10:37:45 - [TEST_STEP][PASSED] - getUrl().equals("https://www.saucedemo.com/inventory.html"): Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+2023-06-12 10:37:45 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+2023-06-12 10:37:45 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button"), 1): Web element with id: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' located by 'By.xpath: //input[@id='login-button']' is not present after '1' second(s)
+
+2023-06-12 10:37:46 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' located by 'By.xpath: //input[@id='login-button']' is not present after '1' second(s)
+
+2023-06-12 10:37:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Open Menu")): Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Open Menu' is clicked on
+
+2023-06-12 10:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Open Menu' is clicked on
+
+2023-06-12 10:37:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/SauceDemo/Page_Swag Labs/a_About")): Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/a_About' is clicked on
+
+2023-06-12 10:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/a_About' is clicked on
+
+2023-06-12 10:37:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/SauceDemo/Page_Sauce Labs Cross Browser Testing, Sele_e8ee84/button_Request a demo")): Object: 'Object Repository/Assignment/SauceDemo/Page_Sauce Labs Cross Browser Testing, Sele_e8ee84/button_Request a demo' is clicked on
+
+2023-06-12 10:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/SauceDemo/Page_Sauce Labs Cross Browser Testing, Sele_e8ee84/button_Request a demo' is clicked on
+
+2023-06-12 10:37:56 - [TEST_STEP][PASSED] - str = "FirstName": null
+
+2023-06-12 10:37:56 - [TEST_STEP][PASSED] - Firstname = findTestObject("Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__FirstName", ["Empid":str]): null
+
+2023-06-12 10:37:56 - [TEST_STEP][PASSED] - setText(Firstname, "Kunj"): Text 'Kunj' is set on object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__FirstName'
+
+2023-06-12 10:38:01 - [MESSAGE][PASSED] - Text 'Kunj' is set on object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__FirstName'
+
+2023-06-12 10:38:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__LastName"), Lastname): Text 'Patel' is set on object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__LastName'
+
+2023-06-12 10:38:03 - [MESSAGE][PASSED] - Text 'Patel' is set on object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__LastName'
+
+2023-06-12 10:38:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Email"), Email1): Text 'kunjpt2002@gmail.com' is set on object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Email'
+
+2023-06-12 10:38:05 - [MESSAGE][PASSED] - Text 'kunjpt2002@gmail.com' is set on object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Email'
+
+2023-06-12 10:38:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Company"), Company): Text 'Simform' is set on object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Company'
+
+2023-06-12 10:38:06 - [MESSAGE][PASSED] - Text 'Simform' is set on object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Company'
+
+2023-06-12 10:38:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/select_Select.AfghanistanAlbaniaAlgeriaAndo_2e5989"), "India", true): All options with value 'India' are selected in object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/select_Select.AfghanistanAlbaniaAlgeriaAndo_2e5989'  using regular expression
+
+2023-06-12 10:38:09 - [MESSAGE][PASSED] - All options with value 'India' are selected in object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/select_Select.AfghanistanAlbaniaAlgeriaAndo_2e5989'  using regular expression
+
+2023-06-12 10:38:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Phone"), Phonenumber): Text '1234567890' is set on object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Phone'
+
+2023-06-12 10:38:10 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Phone'
+
+2023-06-12 10:38:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/select_Select.Sauce Cross-BrowserSauce Mobi_6b7086"), "Cross-Browser Testing", true): All options with value 'Cross-Browser Testing' are selected in object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/select_Select.Sauce Cross-BrowserSauce Mobi_6b7086'  using regular expression
+
+2023-06-12 10:38:11 - [MESSAGE][PASSED] - All options with value 'Cross-Browser Testing' are selected in object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/select_Select.Sauce Cross-BrowserSauce Mobi_6b7086'  using regular expression
+
+2023-06-12 10:38:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/textarea__Sales_Contact_Comments__c"), "none"): Text 'none' is set on object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/textarea__Sales_Contact_Comments__c'
+
+2023-06-12 10:38:13 - [MESSAGE][PASSED] - Text 'none' is set on object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/textarea__Sales_Contact_Comments__c'
+
+2023-06-12 10:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/label_Please check this box if youd like to_15e628")): Object: 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/label_Please check this box if youd like to_15e628' is clicked on
+
+2023-06-12 10:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/label_Please check this box if youd like to_15e628' is clicked on
+
+2023-06-12 10:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/button_Submit")): Object: 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/button_Submit' is clicked on
+
+2023-06-12 10:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/button_Submit' is clicked on
+
+2023-06-12 10:38:14 - [TEST_STEP][PASSED] - verifyTextPresent("Enter valid business email address", false): Text 'Enter valid business email address' is present on page 
+
+2023-06-12 10:38:15 - [MESSAGE][PASSED] - Text 'Enter valid business email address' is present on page 
+
+2023-06-12 10:38:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/span_Company details")): Object: 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/span_Company details' is clicked on
+
+2023-06-12 10:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/span_Company details' is clicked on
+
+2023-06-12 10:38:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Email"), Email2): Text 'kunj.k@simformsolutions.com' is set on object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Email'
+
+2023-06-12 10:38:18 - [MESSAGE][PASSED] - Text 'kunj.k@simformsolutions.com' is set on object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Email'
+
+2023-06-12 10:38:18 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Email"), "value", Email2, 0): Object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Email' has attribute 'value' with value 'kunj.k@simformsolutions.com'
+
+2023-06-12 10:38:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-12 10:38:19 - [MESSAGE][PASSED] - Object 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/input__Email' has attribute 'value' with value 'kunj.k@simformsolutions.com'
+
+2023-06-12 10:38:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/button_Submit")): Object: 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/button_Submit' is clicked on
+
+2023-06-12 10:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/SauceDemo/Page_Request a Sauce Labs Demo/button_Submit' is clicked on
+
+2023-06-12 10:38:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-06-12 10:38:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-06-12 10:38:25 - [TEST_STEP][PASSED] - verifyTextPresent("Thank you for your request.", false): Text 'Thank you for your request.' is present on page 
+
+2023-06-12 10:38:26 - [MESSAGE][PASSED] - Text 'Thank you for your request.' is present on page 
+
+2023-06-12 10:38:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-12 10:38:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-12 10:38:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-12 10:38:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final_Assignment/Saucedemo/Saucedemo_Addtocart" time="23.159" classname="Test Cases/Final_Assignment/Saucedemo/Saucedemo_Addtocart" status="PASSED">
+         <system-out><![CDATA[2023-06-12 10:38:28 - [TEST_CASE][PASSED] - Test Cases/Final_Assignment/Saucedemo/Saucedemo_Addtocart: Test Cases/Final_Assignment/Saucedemo/Saucedemo_Addtocart
+
+2023-06-12 10:38:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-12 10:38:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-12 10:38:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-12 10:38:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-12 10:38:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-12 10:38:29 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-12 10:38:29 - [TEST_STEP][PASSED] - navigateToUrl(Saucedemo): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-06-12 10:38:29 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-06-12 10:38:29 - [TEST_STEP][PASSED] - com.Saucedemo_Login.Login("Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name", EndUser, "Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_password", Password, "Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button"): com.Saucedemo_Login.Login is PASSED
+
+2023-06-12 10:38:30 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-06-12 10:38:31 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_password'
+
+2023-06-12 10:38:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-06-12 10:38:31 - [MESSAGE][PASSED] - com.Saucedemo_Login.Login is PASSED
+
+2023-06-12 10:38:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-12 10:38:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-12 10:38:34 - [TEST_STEP][PASSED] - getUrl().equals("https://www.saucedemo.com/inventory.html"): Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+2023-06-12 10:38:34 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+2023-06-12 10:38:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-06-12 10:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-06-12 10:38:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Add to cart_1")): Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+2023-06-12 10:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+2023-06-12 10:38:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/SauceDemo/Page_Swag Labs/a_2")): Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/a_2' is clicked on
+
+2023-06-12 10:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/a_2' is clicked on
+
+2023-06-12 10:38:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Remove")): Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Remove' is clicked on
+
+2023-06-12 10:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Remove' is clicked on
+
+2023-06-12 10:38:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Checkout")): Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Checkout' is clicked on
+
+2023-06-12 10:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Checkout' is clicked on
+
+2023-06-12 10:38:37 - [TEST_STEP][PASSED] - verifyTextPresent("Checkout: Your Information", false): Text 'Checkout: Your Information' is present on page 
+
+2023-06-12 10:38:38 - [MESSAGE][PASSED] - Text 'Checkout: Your Information' is present on page 
+
+2023-06-12 10:38:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_firstName"), Firstname): Text 'Kunj' is set on object 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+2023-06-12 10:38:39 - [MESSAGE][PASSED] - Text 'Kunj' is set on object 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+2023-06-12 10:38:39 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_firstName"), "value", Firstname, 1): Object 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_firstName' has attribute 'value' with value 'Kunj'
+
+2023-06-12 10:38:39 - [MESSAGE][PASSED] - Object 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_firstName' has attribute 'value' with value 'Kunj'
+
+2023-06-12 10:38:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_lastName"), Lastname): Text 'Patel' is set on object 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+2023-06-12 10:38:40 - [MESSAGE][PASSED] - Text 'Patel' is set on object 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+2023-06-12 10:38:40 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_lastName"), "value", Lastname, 1): Object 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_lastName' has attribute 'value' with value 'Patel'
+
+2023-06-12 10:38:40 - [MESSAGE][PASSED] - Object 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_lastName' has attribute 'value' with value 'Patel'
+
+2023-06-12 10:38:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_postalCode"), Pincode): Text '360004' is set on object 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+2023-06-12 10:38:41 - [MESSAGE][PASSED] - Text '360004' is set on object 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+2023-06-12 10:38:41 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_postalCode"), "value", Pincode, 1): Object 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_postalCode' has attribute 'value' with value '360004'
+
+2023-06-12 10:38:42 - [MESSAGE][PASSED] - Object 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Checkout Your Information_postalCode' has attribute 'value' with value '360004'
+
+2023-06-12 10:38:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-12 10:38:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-12 10:38:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Cancel_continue")): Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Cancel_continue' is clicked on
+
+2023-06-12 10:38:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/input_Cancel_continue' is clicked on
+
+2023-06-12 10:38:44 - [TEST_STEP][PASSED] - verifyTextPresent("Payment Information", false): Text 'Payment Information' is present on page 
+
+2023-06-12 10:38:45 - [MESSAGE][PASSED] - Text 'Payment Information' is present on page 
+
+2023-06-12 10:38:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Finish")): Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Finish' is clicked on
+
+2023-06-12 10:38:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Finish' is clicked on
+
+2023-06-12 10:38:45 - [TEST_STEP][PASSED] - verifyTextPresent("Thank you for your order!", false): Text 'Thank you for your order!' is present on page 
+
+2023-06-12 10:38:46 - [MESSAGE][PASSED] - Text 'Thank you for your order!' is present on page 
+
+2023-06-12 10:38:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Back Home")): Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Back Home' is clicked on
+
+2023-06-12 10:38:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/SauceDemo/Page_Swag Labs/button_Back Home' is clicked on
+
+2023-06-12 10:38:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-06-12 10:38:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-06-12 10:38:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-12 10:38:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Final_Assignment/Alerts/Alerts" time="4.334" classname="Test Cases/Final_Assignment/Alerts/Alerts" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Final_Assignment/Alerts/Alerts FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$11.call(Unknown Source)
+	at Alerts.run(Alerts:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686546443922.run(TempTestSuite1686546443922.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-06-12 10:39:04 - [TEST_CASE][FAILED] - Test Cases/Final_Assignment/Alerts/Alerts: Test Cases/Final_Assignment/Alerts/Alerts FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$11.call(Unknown Source)
+	at Alerts.run(Alerts:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686546443922.run(TempTestSuite1686546443922.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-06-12 10:39:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-12 10:39:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-06-12 10:39:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-12 10:39:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-12 10:39:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-12 10:39:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-12 10:39:04 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-12 10:39:04 - [TEST_STEP][PASSED] - navigateToUrl(Alert): Navigate to 'https://demo.automationtesting.in/Alerts.html' successfully
+
+2023-06-12 10:39:05 - [MESSAGE][PASSED] - Navigate to 'https://demo.automationtesting.in/Alerts.html' successfully
+
+2023-06-12 10:39:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/Alerts/Page_Alerts/a_Alert with OK")): Object: 'Object Repository/Assignment/Alerts/Page_Alerts/a_Alert with OK' is clicked on
+
+2023-06-12 10:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/Alerts/Page_Alerts/a_Alert with OK' is clicked on
+
+2023-06-12 10:39:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assignment/Alerts/Page_Alerts/button_click the button to display an  alert box")): Object: 'Object Repository/Assignment/Alerts/Page_Alerts/button_click the button to display an  alert box' is clicked on
+
+2023-06-12 10:39:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Assignment/Alerts/Page_Alerts/button_click the button to display an  alert box' is clicked on
+
+2023-06-12 10:39:06 - [TEST_STEP][PASSED] - waitForAlert(5): Alert is present after 5 second(s).
+
+2023-06-12 10:39:06 - [MESSAGE][PASSED] - Alert is present after 5 second(s).
+
+2023-06-12 10:39:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-12 10:39:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-12 10:39:08 - [TEST_STEP][FAILED] - acceptAlert(): Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$11.call(Unknown Source)
+	at Alerts.run(Alerts:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686546443922.run(TempTestSuite1686546443922.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+
+2023-06-12 10:39:08 - [MESSAGE][FAILED] - No alert found (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$11.call(Unknown Source)
+	at Alerts.run(Alerts:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686546443922.run(TempTestSuite1686546443922.groovy:36)
+)
+[[ATTACHMENT|/home/kunj/git/KatalonTest/Reports/20230612_103722/Saucedemo/20230612_103723/1686546548379.png]]
+
+2023-06-12 10:39:08 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$11.call(Unknown Source)
+	at Alerts.run(Alerts:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686546443922.run(TempTestSuite1686546443922.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+[[ATTACHMENT|/home/kunj/git/KatalonTest/Reports/20230612_103722/Saucedemo/20230612_103723/1686546548503.png]]]]></system-out>
+         <system-err><![CDATA[2023-06-12 10:39:04 - [TEST_CASE][FAILED] - Test Cases/Final_Assignment/Alerts/Alerts: Test Cases/Final_Assignment/Alerts/Alerts FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$11.call(Unknown Source)
+	at Alerts.run(Alerts:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686546443922.run(TempTestSuite1686546443922.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-12 10:37:38 - [TEST_SUITE][FAILED] - Saucedemo: Test Cases/Final_Assignment/Alerts/Alerts FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$11.call(Unknown Source)
+	at Alerts.run(Alerts:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686546443922.run(TempTestSuite1686546443922.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-06-12 10:37:38 - [TEST_SUITE][FAILED] - Saucedemo: Test Cases/Final_Assignment/Alerts/Alerts FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1522)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$11.call(Unknown Source)
+	at Alerts.run(Alerts:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686546443922.run(TempTestSuite1686546443922.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

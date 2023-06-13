@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.openBrowser('')
-//
-//WebUI.navigateToUrl(GlobalVariable.Saucedemo)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.Saucedemo)
 WebUI.click(findTestObject('Object Repository/Assignment/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/input_Swag Labs_user-name'))
 
 WebUI.click(findTestObject('Object Repository/Assignment/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/div_Accepted usernames arestandard_userlock_0ab16f'))
@@ -35,4 +35,4 @@ WebUI.setText(findTestObject('Object Repository/Assignment/Data_Driven_Testing/S
 WebUI.click(findTestObject('Object Repository/Assignment/Data_Driven_Testing/Saucedemo_Login/Page_Swag Labs/input_Swag Labs_login-button'))
 
 WebUI.delay(3)
-
+WebUI.closeBrowser()

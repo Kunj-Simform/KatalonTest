@@ -29,8 +29,6 @@ WebUI.click(findTestObject('Object Repository/Assignment/Alerts/Page_Alerts/butt
 
 WebUI.waitForAlert(5)
 
-WebUI.delay(2)
-
 WebUI.acceptAlert()
 
 WebUI.click(findTestObject('Object Repository/Assignment/Alerts/Page_Alerts/a_Alert with OK  Cancel'))
@@ -39,8 +37,6 @@ WebUI.click(findTestObject('Object Repository/Assignment/Alerts/Page_Alerts/butt
 
 WebUI.waitForAlert(5)
 
-WebUI.delay(2)
-
 WebUI.acceptAlert()
 
 WebUI.click(findTestObject('Object Repository/Assignment/Alerts/Page_Alerts/a_Alert with OK  Cancel'))
@@ -48,8 +44,6 @@ WebUI.click(findTestObject('Object Repository/Assignment/Alerts/Page_Alerts/a_Al
 WebUI.click(findTestObject('Object Repository/Assignment/Alerts/Page_Alerts/button_click the button to display a confirm box'))
 
 WebUI.waitForAlert(5)
-
-WebUI.delay(2)
 
 WebUI.dismissAlert()
 
@@ -59,11 +53,7 @@ WebUI.click(findTestObject('Object Repository/Assignment/Alerts/Page_Alerts/butt
 
 WebUI.waitForAlert(5)
 
-WebUI.delay(2)
-
 WebUI.setAlertText('Kunj')
-
-WebUI.delay(2)
 
 WebUI.acceptAlert()
 

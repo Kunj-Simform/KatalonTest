@@ -53,6 +53,24 @@
       <value></value>
       <variableId>f88e3a11-2ecd-471d-92fd-82f1a6f5ad1a</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>61463806-403d-446b-ac52-25ee29a7efb9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7970c714-6145-4742-b234-487fe2bf161d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae02a5b8-f8f3-4fb0-86d8-7eba67d5a6ae</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Kunj'</defaultValue>
       <description></description>
@@ -108,5 +126,26 @@
       <id>f88e3a11-2ecd-471d-92fd-82f1a6f5ad1a</id>
       <masked>false</masked>
       <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'India'</defaultValue>
+      <description></description>
+      <id>61463806-403d-446b-ac52-25ee29a7efb9</id>
+      <masked>false</masked>
+      <name>Country</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cross-Browser Testing'</defaultValue>
+      <description></description>
+      <id>7970c714-6145-4742-b234-487fe2bf161d</id>
+      <masked>false</masked>
+      <name>Testing</name>
+   </variable>
+   <variable>
+      <defaultValue>'none'</defaultValue>
+      <description></description>
+      <id>ae02a5b8-f8f3-4fb0-86d8-7eba67d5a6ae</id>
+      <masked>false</masked>
+      <name>Text</name>
    </variable>
 </TestCaseEntity>

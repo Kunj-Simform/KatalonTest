@@ -10,11 +10,19 @@
          <value>//button[@onclick='alertbox()']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '    click the button to display an  alert box:
+
+                        ' or . = '    click the button to display an  alert box:
+
+                        ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.btn.btn-danger</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +30,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2566ff11-36bc-4357-a080-2d6b0feb0b39</webElementGuid>
+      <webElementGuid>a56399ed-f4b9-4e73-b055-491555f2df6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-danger</value>
-      <webElementGuid>b1bf14fa-c5da-4e2b-b3f3-6147559038dc</webElementGuid>
+      <webElementGuid>1083c68e-409e-4fc4-8c98-dd95c633439e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +46,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>alertbox()</value>
-      <webElementGuid>cdb0dae9-3e69-40a9-a265-19cb730aa925</webElementGuid>
+      <webElementGuid>992b98fe-f11d-481f-b1e3-8ebeaee9e785</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,7 +56,7 @@
       <value>    click the button to display an  alert box:
 
                         </value>
-      <webElementGuid>97c9def7-f3a5-4211-81a6-ebdb29e241c4</webElementGuid>
+      <webElementGuid>ed3f8e2f-129c-4892-91fb-af7f8ae14712</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +64,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;OKTab&quot;)/button[@class=&quot;btn btn-danger&quot;]</value>
-      <webElementGuid>98f922d5-b071-4c18-a271-0dd1750549cd</webElementGuid>
+      <webElementGuid>fdcc9c9c-9e5a-4810-93a9-b42b24e806ec</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +72,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@onclick='alertbox()']</value>
-      <webElementGuid>c638ca94-d9d0-46f7-9381-386f49f81da7</webElementGuid>
+      <webElementGuid>8c4580c2-806a-4b5b-a96a-461f746e5f04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +80,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='OKTab']/button</value>
-      <webElementGuid>1f8d2d02-5fda-4d58-85dc-faf06c2a358b</webElementGuid>
+      <webElementGuid>a9164ffe-4df1-4016-a5bc-d229b517e6b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alert with Textbox'])[1]/following::button[1]</value>
-      <webElementGuid>47468cbd-bf35-4d5f-98ff-f6ff84d4063d</webElementGuid>
+      <webElementGuid>400f4c8b-355c-467a-8f7c-90b0f6aa8d2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alert with OK &amp; Cancel'])[1]/following::button[1]</value>
-      <webElementGuid>b247bc62-9351-4629-9c41-cac38097c7f7</webElementGuid>
+      <webElementGuid>080484c5-657b-4893-81fa-e07e3b4e55b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='click the button to display a confirm box'])[1]/preceding::button[1]</value>
-      <webElementGuid>b8eb384d-3810-479c-b3c4-1312bb754e48</webElementGuid>
+      <webElementGuid>6c9c1d4b-70ba-4621-9e3a-3ba2e6af2101</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='click the button to demonstrate the prompt box'])[1]/preceding::button[2]</value>
-      <webElementGuid>aed73259-c678-4249-8c03-b02e060838a7</webElementGuid>
+      <webElementGuid>f5d55825-5771-4717-aa8c-4bc641c586ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +120,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>fa01cd19-c0e8-4bd2-93f7-934b9062a3d9</webElementGuid>
+      <webElementGuid>e7b70b66-64e6-413d-b0a5-bf49b9d5f490</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,6 +132,6 @@
                         ' or . = '    click the button to display an  alert box:
 
                         ')]</value>
-      <webElementGuid>12f565a9-ac09-4378-ab92-6bdb11385703</webElementGuid>
+      <webElementGuid>67df0b6d-0815-4479-97e3-88570b667df7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
